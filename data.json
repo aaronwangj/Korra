@@ -1,0 +1,129 @@
+{
+  "data": [
+    {
+      "tag": "hello",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello! I'm Korra. I'll answer any Coronavirus-related questions or point you to some great resources if I'm stumped!",
+        "Hi! I'm Korra. I'll answer any Coronavirus-related questions or point you to some great resources if I'm stumped!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "It was nice meeting you!",
+        "Bye! Let me know if you have any more questions."
+      ]
+    },
+    {
+      "tag": "spread",
+      "patterns": ["virus spread", "how does", "how does the virus spread", "ball", "bugs", "ticks", "mosquitos", "spread"],
+      "responses": ["COVID-19 is typically spread through person-to-person contact only (not objects), and mainly from foreign respiratory droplets entering through the nose or mouth. The spreading often occurs in small communities (community spread) and thus is able to spread rapidly. It is unknown whether or not weather will affect the virus."]
+    },
+    {
+      "tag": "prevent",
+      "patterns": [
+        "stop coronavirus",
+        "end",
+        "protect", ""
+      ],
+      "responses": [
+        "Remember to wash your hands, stay socially distant, and wear a face covering when around others. If you are developing symptoms, closely monitor your tempature, contact your healthcare provider and self-isolate for fourteen days."]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "What are the symptoms",
+        "Do i have it",
+        "does my spouse have coronavirus",
+        "how can i tell if someone has coronavirus"
+      ],
+      "responses": [
+        "People with COVID-19 have reported various symptoms, including fever, coughs, difficulty breathing, fatigue, headaches, sore throat, nausea, and chest pain. These symptoms may occur 2-14 days after exposure. If you believe or someone you know has been infected, seek emergency medical care immediately. Note that it is possible to have COVID-19 at the same time as other respiratory infections like the flu."
+      ]
+    },
+    {
+      "tag": "testing",
+      "patterns": [
+        "Should I get testing",
+        "Where can i get tested",
+        "how do i get tested", "how many tests are there"
+      ],
+      "responses": [
+        "Only seek testing if you believe you have developed symptoms of COVID-19. Consult with your healthcare provider beforehand and he/she can help you find a nearby testing center. There are two tests: viral and antibody. Viral tests check for current infection and antibody tests check for prior infection. It is unknown if people who recover from COVID-19 can be re-infected."
+      ]
+    },
+    {
+      "tag": "cdc",
+      "patterns": [
+        "what is the cdc",
+        "what is the cdc doing",
+        "why is the cdc doing nothing", "dr anthony fauci"
+      ],
+      "responses": [
+        "The Center for Disease Control (CDC) is working with other federal partners in a whole-of-government response. This is an emerging, rapidly evolving situation and CDC will continue to provide updated information as it becomes available. CDC works 24/7 to protect people’s health."
+      ]
+    },
+    {
+      "tag": "pets",
+      "patterns": [
+        "animals",
+        "can my dog get coronavirus",
+        "can cats get coronavirus", "should i get my pet tested", "can i adopt a pet", "bats"
+      ],
+      "responses": [
+        "There is no evidence that domestic animals or animal products play a role in spreading COVID-19. Pets cannot be infected and thus do not need to be tested. As a precautinary measure, routinely clean your pets and monitor its health for any possible COVID-19 symptoms."
+      ]
+    },
+    {
+      "tag": "water",
+      "patterns": [
+        "drinking water",
+        "can corona be spread through pools",
+        "beaches and hot tubs"
+      ],
+      "responses": [
+        "COVID-19 has not been detected in drinking water that has been properly treated with filtration and/or disinfection, including tap water. Large bodies of water, such as pools and hot tubs, should inactivate the virus from chlorine/bromine treatment. Beaches and other crowded areas should be avoided."
+      ]
+    },
+    {
+      "tag": "mitigation",
+      "patterns": [
+        "community mitigation",
+        "what can i do", "what is mitigation"
+      ],
+      "responses": [
+        "Community mitigation activities are actions that people and communities can take to slow the spread of COVID-19, such as washing hands, disinfecting surfaces, practicing social distancing, wearing face coverings around others, and covering coughs and sneezes."
+      ]
+    },
+    {
+      "tag": "contact tracing",
+      "patterns": [
+        "anonymous",
+        "phone apps", "contact tracing"
+      ],
+      "responses": [
+        "Contact tracing allows health departments to trace those who have been in contact with an infected individual so that they may quarantine and be tested. This is anonymous and will help interrupt disease transmission. Health departments across the country are working with large technology companies to expand this program."
+      ]
+    },
+    {
+      "tag": "high risk",
+      "patterns": [
+        "who is at higher risk",
+        "am i at high risk", "what age is highest risk", "underlying conditions"
+      ],
+      "responses": [
+        "Those that are at higher risk for develop life-threatening illness from COVID-19 include people aged 65 or older and people who are immunocompromised or have underlying medical conditions, such as chronic lung disease, asthma, any heart condition, and obesity."
+      ]
+    }
+  ]
+}
