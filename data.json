@@ -1,7 +1,7 @@
 {
   "data": [
     {
-      "tag": "hello",
+      "topic": "hello",
       "patterns": [
         "Hi",
         "Hey",
@@ -16,7 +16,7 @@
       ]
     },
     {
-      "tag": "goodbye",
+      "topic": "goodbye",
       "patterns": ["Bye", "See you later", "Goodbye"],
       "responses": [
         "See you later, thanks for visiting",
@@ -25,12 +25,12 @@
       ]
     },
     {
-      "tag": "spread",
+      "topic": "spread",
       "patterns": ["virus spread", "how does", "how does the virus spread", "ball", "bugs", "ticks", "mosquitos", "spread"],
       "responses": ["COVID-19 is typically spread through person-to-person contact only (not objects), and mainly from foreign respiratory droplets entering through the nose or mouth. The spreading often occurs in small communities (community spread) and thus is able to spread rapidly. It is unknown whether or not weather will affect the virus."]
     },
     {
-      "tag": "prevent",
+      "topic": "prevent",
       "patterns": [
         "stop coronavirus",
         "end",
@@ -40,7 +40,7 @@
         "Remember to wash your hands, stay socially distant, and wear a face covering when around others. If you are developing symptoms, closely monitor your tempature, contact your healthcare provider and self-isolate for fourteen days."]
     },
     {
-      "tag": "symptoms",
+      "topic": "symptoms",
       "patterns": [
         "What are the symptoms",
         "Do i have it",
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "tag": "testing",
+      "topic": "testing",
       "patterns": [
         "Should I get testing",
         "Where can i get tested",
@@ -63,7 +63,7 @@
       ]
     },
     {
-      "tag": "cdc",
+      "topic": "cdc",
       "patterns": [
         "what is the cdc",
         "what is the cdc doing",
@@ -74,7 +74,7 @@
       ]
     },
     {
-      "tag": "pets",
+      "topic": "pets",
       "patterns": [
         "animals",
         "can my dog get coronavirus",
@@ -85,7 +85,7 @@
       ]
     },
     {
-      "tag": "water",
+      "topic": "water",
       "patterns": [
         "drinking water",
         "can corona be spread through pools",
@@ -96,7 +96,7 @@
       ]
     },
     {
-      "tag": "mitigation",
+      "topic": "mitigation",
       "patterns": [
         "community mitigation",
         "what can i do", "what is mitigation"
@@ -106,7 +106,7 @@
       ]
     },
     {
-      "tag": "contact tracing",
+      "topic": "contact tracing",
       "patterns": [
         "anonymous",
         "phone apps", "contact tracing"
@@ -116,7 +116,7 @@
       ]
     },
     {
-      "tag": "high risk",
+      "topic": "high risk",
       "patterns": [
         "who is at higher risk",
         "am i at high risk", "what age is highest risk", "underlying conditions"
