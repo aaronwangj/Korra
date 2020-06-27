@@ -11,55 +11,70 @@
         "Good day"
       ],
       "responses": [
-        "Hello! I'm Korra. I'll answer any Coronavirus-related questions or point you to some great resources if I'm stumped!",
-        "Hi! I'm Korra. I'll answer any Coronavirus-related questions or point you to some great resources if I'm stumped!"
+        "Hi, I am Korra. Ask me any questions about COVID-19!",
+        "Hello, you can call me Korra! Ask me questions about COVID-19!"
       ]
     },
     {
       "topic": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": ["Bye", "See you later", "Goodbye", "thanks"],
       "responses": [
-        "See you later, thanks for visiting",
-        "It was nice meeting you!",
-        "Bye! Let me know if you have any more questions."
+        "Thanks for visiting. Type quit to leave.",
+        "It was nice meeting you! Type quit to leave.",
+        "Bye! Type quit to leave.",
+        "It was nice talking with you. Type quit to leave!",
+        "Glad I could help. Type quit to leave!"
       ]
     },
     {
-      "topic": "spread",
-      "patterns": ["virus spread", "how does", "how does the virus spread", "ball", "bugs", "ticks", "mosquitos", "spread"],
-      "responses": ["COVID-19 is typically spread through person-to-person contact only (not objects), and mainly from foreign respiratory droplets entering through the nose or mouth. The spreading often occurs in small communities (community spread) and thus is able to spread rapidly. It is unknown whether or not weather will affect the virus."]
-    },
-    {
-      "topic": "prevent",
+      "topic": "what is covid",
+      "patterns": ["what is covid", "what is coronavirus", "what does covid mean", "what does covid stand for", "what does coronavirus mean"],
+      "responses": ["COVID-19 is spread from person-to-person via respiratory droplets such as coughs and sneezes.\nThese droplets can land in the mouths or noses of people who are nearby or be inhaled into the lungs.\nNeither surfaces nor animals can carry the disease by themselves."]
+    },    {
+      "topic": "thespread",
       "patterns": [
-        "stop coronavirus",
-        "end",
-        "protect", ""
+        "how do i get coronavirus",
+        "how does coronavirus spread",
+        "how does covid spread"
       ],
       "responses": [
-        "Remember to wash your hands, stay socially distant, and wear a face covering when around others. If you are developing symptoms, closely monitor your tempature, contact your healthcare provider and self-isolate for fourteen days."]
-    },
-    {
-      "topic": "symptoms",
-      "patterns": [
-        "What are the symptoms",
-        "Do i have it",
-        "does my spouse have coronavirus",
-        "how can i tell if someone has coronavirus"
-      ],
-      "responses": [
-        "People with COVID-19 have reported various symptoms, including fever, coughs, difficulty breathing, fatigue, headaches, sore throat, nausea, and chest pain. These symptoms may occur 2-14 days after exposure. If you believe or someone you know has been infected, seek emergency medical care immediately. Note that it is possible to have COVID-19 at the same time as other respiratory infections like the flu."
+        "COVID-19 is spread from person-to-person via respiratory droplets such as coughs and sneezes.\nThese droplets can land in the mouths or noses of people who are nearby or be inhaled into the lungs. \nNeither surfaces nor animals can carry the disease by themselves."
       ]
     },
     {
-      "topic": "testing",
+      "topic": "community",
       "patterns": [
-        "Should I get testing",
-        "Where can i get tested",
-        "how do i get tested", "how many tests are there"
+        "what is community spread",
+        "community spread",
+        "how does coronavirus spread in my town"
       ],
       "responses": [
-        "Only seek testing if you believe you have developed symptoms of COVID-19. Consult with your healthcare provider beforehand and he/she can help you find a nearby testing center. There are two tests: viral and antibody. Viral tests check for current infection and antibody tests check for prior infection. It is unknown if people who recover from COVID-19 can be re-infected."
+        "Community spread is when people have been infected in an area, including those who are unaware they were infected.\nThese individuals allow the virus to spread easily and sustainably in the community (hence community spread)."]
+    },
+    {
+      "topic": "weather",
+      "patterns": [
+        "does weather affect coronavirus",
+        "what season does coronavirus die",
+        "will coronavirus end in the summer",
+        "fall", "summer", "spring", "autumn", "winter",
+        "is coronavirus back in the winter", "cold weather",
+        "is it safe in the summer"
+      ],
+      "responses": [
+        "Infectious experts are unsure if weather will affect the spread of COVID-19. Other viruses, like those that\ncause the common cold and flu, tend to spread more during colder seasons. This does not mean it is \nimpossible to contract the virus in other months."
+      ]
+    },
+    {
+      "topic": "bugs",
+      "patterns": [
+        "do mosquitos carry coronavirus",
+        "mosquitos",
+        "do ticks spread coronavirus", "bugs", "spiders",
+        "bug bites", "bug spray", "animal bites", "critter", "ant"
+      ],
+      "responses": [
+        "The CDC has no data to suggest that COVID-19 is spread by mosquitoes, ticks, other bugs, or other non-human\nlife. The main way that COVID-19 spreads is from person to person."
       ]
     },
     {
@@ -74,25 +89,25 @@
       ]
     },
     {
-      "topic": "pets",
+      "topic": "prevention",
       "patterns": [
-        "animals",
-        "can my dog get coronavirus",
-        "can cats get coronavirus", "should i get my pet tested", "can i adopt a pet", "bats"
+        "how can i protect myself",
+        "how can i protect my family",
+        "how can i protect my child", "how do i prevent"
       ],
       "responses": [
-        "There is no evidence that domestic animals or animal products play a role in spreading COVID-19. Pets cannot be infected and thus do not need to be tested. As a precautinary measure, routinely clean your pets and monitor its health for any possible COVID-19 symptoms."
+        "Wash your hands often, avoid close contact with others, cover your face with a mask when around others, \ncover coughs and sneezes, and disinfect surfaces frequently. Always be alert for possible symptoms!"
       ]
     },
     {
-      "topic": "water",
+      "topic": "mail",
       "patterns": [
-        "drinking water",
-        "can corona be spread through pools",
-        "beaches and hot tubs"
+        "can mail spread coronavirus",
+        "can amazon prime packages spread",
+        "packages", "does mail have corona", "surfaces"
       ],
       "responses": [
-        "COVID-19 has not been detected in drinking water that has been properly treated with filtration and/or disinfection, including tap water. Large bodies of water, such as pools and hot tubs, should inactivate the virus from chlorine/bromine treatment. Beaches and other crowded areas should be avoided."
+        "Although the virus can survive for a short period on some surfaces, COVID-19 is  thought to be spread most often\nby respiratory droplets. It is unlikely to be spread from domestic or international mail, products or packaging."
       ]
     },
     {
@@ -106,23 +121,261 @@
       ]
     },
     {
-      "topic": "contact tracing",
+      "topic": "donating blood",
       "patterns": [
-        "anonymous",
-        "phone apps", "contact tracing"
+        "can i donate blood",
+        "is it safe to donate blood", "blood donation",
+        "blood", "blood donation"
       ],
       "responses": [
-        "Contact tracing allows health departments to trace those who have been in contact with an infected individual so that they may quarantine and be tested. This is anonymous and will help interrupt disease transmission. Health departments across the country are working with large technology companies to expand this program."
+        "The CDC encourages people who are well to continue to donate blood if they are able to."
       ]
     },
     {
-      "topic": "high risk",
+      "topic": "contact lens",
       "patterns": [
-        "who is at higher risk",
-        "am i at high risk", "what age is highest risk", "underlying conditions"
+        "can i wear contacts",
+        "should i wear glasses", "are glasses safe", "contact lenses"
       ],
       "responses": [
-        "Those that are at higher risk for develop life-threatening illness from COVID-19 include people aged 65 or older and people who are immunocompromised or have underlying medical conditions, such as chronic lung disease, asthma, any heart condition, and obesity."
+        "Currently there is no evidence to suggest contact lens wearers are more at risk for acquiring COVID-19\nthan eyeglass wearers, or vice versa."
+      ]
+    },
+    {
+      "topic": "handwashing",
+      "patterns": [
+        "wash hands",
+        "how long do i wash my hands",
+        "should i wash my hands",
+        "hand sanitizer",
+        "is soap better than hand sanitizer",
+        "soap", "can i use hand sanitizer over soap and water"
+      ],
+      "responses": [
+        "Handwashing is one of the best ways to protect yourself and your family from getting sick. Wash your hands\nwith soap for at least 20 seconds after blowing your nose, coughing, or sneezing; going to the bathroom; and\nbefore eating or preparing food. If soap and water are not available, use an alcohol-based hand sanitizer"
+      ]
+    },
+    {
+      "topic": "disinfection",
+      "patterns": [
+        "can i use clorox",
+        "how do i disinfect",
+        "what should i disinfect",
+        "what should i clean",
+        "what surfaces should i disinfect",
+        "disinfect clean"
+      ],
+      "responses": [
+        "Disinfect frequently touched surfaces such as tables, doorknobs, light switches, countertops, handles, \ndesks, phones, keyboards, toilets, faucets, and sinks. Visit the CDC website for cleaning guidelines."
+      ]
+    },
+    {
+      "topic": "whathappens",
+      "patterns": [
+        "what if i have coronavirus",
+        "what do i do if i have covid",
+        "how long does it take to recover",
+        "where can i recover",
+        "self isolation",
+        "where do i quarantine"
+      ],
+      "responses": [
+        "Most people who get COVID-19 will be able to recover at home. Quarantine in isolation for fourteen days\nand wear a face mask when around family members."
+      ]
+    },
+    {
+      "topic": "child",
+      "patterns": [
+        "does my child have coronavirus",
+        "does my son have covid",
+        "does my daughter have coronavirus",
+        "son",
+        "daughter",
+        "child", "kid", "is my kid at high risk",
+        "are children at high risk", "are infants are high risk"
+      ],
+      "responses": [
+        "Children are not as high risk for COVID-19, although some children and infants have been sick with COVID-19.\nIf you believe your child may have COVID-19, consult your healthcare provider immediately."
+      ]
+    },
+    {
+      "topic": "differentsymptoms",
+      "patterns": [
+        "Are the symptoms of COVID-19 different in children than in adults",
+        "children versus adults", "do different people have different symptoms"
+      ],
+      "responses": [
+        "Symptoms of COVID-19 are similar for all people who contract it, although symptoms can look different in\ndifferent people."
+      ]
+    },
+    {
+      "topic": "kidmask",
+      "patterns": [
+        "should my child wear a face mask",
+        "should my son wear a face mask",
+        "daughter wear a face mask",
+        "kid wear a face mask",
+        "child wear a face mask"
+      ],
+      "responses": [
+        "Everyone two years and older should wear a face mask. Cloth face coverings should NOT be put on babies\nor children younger than 2 because of the danger of suffocation."
+      ]
+    },
+    {
+      "topic": "msi",
+      "patterns": [
+        "what is multisystem inflammatory system",
+        "mis-c",
+        "multisystem inflammatory system"
+      ],
+      "responses": [
+        "This is a condition where different body parts can become inflamed. Children who have COVID-19\nmay also contract this. Consult your healthcare provider if you believe your child may have this."
+      ]
+    },
+    {
+      "topic": "hangout",
+      "patterns": [
+        "can my teen hang out with friends",
+        "can my kid go on a playdate",
+        "play date",
+        "hangout",
+        "can i go out with friends"
+      ],
+      "responses": [
+        "The key to slowing the spread of COVID-19 is to practice social distancing. Going out and socializing is\nextremely dangerous during a global pandemic. Please stay safe and away from others."
+      ]
+    },
+    {
+      "topic": "schoolmeals",
+      "patterns": [
+        "school meals",
+        "how do i feed my child",
+        "will my child continue getting food at school",
+        "school lunch"
+      ],
+      "responses": [
+        "Check with your school on plans to continue meal services during the school dismissal."
+      ]
+    },
+    {
+      "topic": "homemadehandsanitizer",
+      "patterns": [
+        "how do i make hand sanitizer",
+        "should i make hand sanitizer",
+        "homemade hand sanitizer"
+      ],
+      "responses": [
+        "CDC does not encourage the production and use of homemade hand sanitizer products because of\nconcerns over the correct use of the ingredients."
+      ]
+    },
+    {
+      "topic": "officialsymptoms",
+      "patterns": [
+        "do i have coronavirus",
+        "do i have covid19",
+        "what are the symptoms of covid19",
+        "symptoms",
+        "does my spouse have coronavirus",
+        "who has coronavirus"
+      ],
+      "responses": [
+        "People with these symptoms may have COVID-19:\nFever or chills\nCough\nShortness of breath or difficulty breathing\nFatigue\nMuscle or body aches\nHeadache\nNew loss of taste or smell\nSore throat\nCongestion or runny nose\nNausea or vomiting\nDiarrhea\nNotify your healthcare provider if you believe you or someone you know has COVID-19."
+      ]
+    },
+    {
+      "topic": "tested",
+      "patterns": [
+        "should i get tested",
+        "should my spouse get tested",
+        "when should i get tested"
+      ],
+      "responses": [
+        "Not everyone needs to be tested for COVID-19. If you have symptoms, call your healthcare provider first."
+      ]
+    },
+    {
+      "topic": "howtest",
+      "patterns": [
+        "how can i get tested",
+        "how do i get tested",
+        "where do i get tested",
+        "when is testing available"
+      ],
+      "responses": [
+        "If you think you need a viral or antibody test, call your healthcare provider first. Your healthcare provider may\nhave these tests at his/her office. If not, contact your local health department and they may have tests available."
+      ]
+    },
+    {
+      "topic": "differentt",
+      "patterns": [
+        "what are the different kind of tests",
+        "what are the different type of tests",
+        "viral vs antibody testing",
+        "what is viral testing",
+        "what is viral testing",
+        "what is antibody testing",
+        "viral testing","antibody testing"
+      ],
+      "responses": [
+        "Viral tests are used to diagnose COVID-19 and antibody tests are used to see if you already had COVID-19."
+      ]
+    },
+    {
+      "topic": "immunity",
+      "patterns": [
+        "if i recovered from coronavirus, am i immune",
+        "can i still get coronavirus"
+      ],
+      "responses": [
+        "The CDC is unsure if people who recover from COVID-19 can get infected again. Continue to take steps to\nprotect yourself and others."
+      ]
+    },
+    {
+      "topic": "highrisk",
+      "patterns": [
+        "am i at high risk",
+        "who is at high risk",
+        "is my husband at high risk",
+        "high risk", "underlying medical conditions"
+      ],
+      "responses": [
+        "Those 65 and older or with underlying medical conditions are at higher risk of severe illness from COVID-19.\nIf you are at higher risk, follow CDC protection guidelines and stay home as much as possible."
+      ]
+    },
+    {
+      "topic": "contacttracing",
+      "patterns": [
+        "what is contact tracing",
+        "why contact tracing",
+        "How does contact tracing work",
+        "contact tracing"
+      ],
+      "responses": [
+        "Contact tracing involves identifying people who have COVID-19 and their contacts and working with them\nto interrupt disease transmission."
+      ]
+    },
+    {
+      "topic": "pet",
+      "patterns": [
+        "can my pet get coronavirus",
+        "does my dog cat have coronavirus",
+        "can animals spread coronavirus",
+        "animals"
+      ],
+      "responses": [
+        "Animals do not play a role in COVID-19 transmission. Tests and vaccines are not widely available for animals."
+      ]
+    },
+    {
+      "topic": "water",
+      "patterns": [
+        "can i swim in a pool",
+        "does water spread coronavirus",
+        "pools",
+        "water", "lake", "river", "beach"
+      ],
+      "responses": [
+        "COVID-19 has not been detected in treated drinking water, pools, or open bodies of water."
       ]
     }
   ]
