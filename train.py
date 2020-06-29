@@ -85,7 +85,7 @@ for e in range(num_epochs):
         optimizer.step()
 
     if (e+1) % 5 == 0:
-        print(f' [{int(100*(e+1)/num_epochs)}%] Loss= {loss.item():.4f}')
+        print(f'Loss= {loss.item():.4f} [{int(100*(e+1)/num_epochs)}%] ')
 
 print(f'Final loss: {loss.item():.4f}')
     
